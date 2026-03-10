@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: rgb(238, 231, 231);
+
+}
+
+nav {
+    background-color: rgb(34, 32, 32);
+    border-bottom: 2px solid rgb(226, 226, 235);
+}
+
+nav a{
+    font-family: "Outfit", 'sans-serif';
+}
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+
+/* ------------ */
+
+#carouselPic{
+    padding: 0;
+}
+
+.container-large {
+  width: 90%;           /* Take up 90% of the screen width so it feels expansive... */
+  max-width: 1600px;
+  margin: 0 auto;       /* Keep the whole block perfectly centered */
+}
+
+.container-large div{
+    font-family: 'Outfit', 'sans-serif';
+}
+
+.card h5{
+    margin-bottom: 15px;
+}
+
+
+/* ---------------- */
+#mission_div{
+    box-shadow: 10px 10px 20px rgb(85, 83, 83);
+}
+
+#mission_div div,p{
+    font-family: 'Outfit', 'sans-serif';
+}
+
+#mission_div p{
+    font-size: larger;
+}
+
+.Thin_bold{
+    font-weight: 600;
+}
+
+#mission_div a:hover{
+    background-color: rgb(21, 181, 230);
+}
+
+
+/* Get Involved */
+.Get_Involved{
+    font-family: 'Outfit', 'sans-serif';
+}
+
+/* Base state: Black and no underline */
+.footer-link {
+    color: white; /* Bootstrap's standard dark text */
+    text-decoration: none;
+    transition: opacity 0.2s ease-in-out; /* Makes the fade smooth */
+}
+
+/* Hover state: Fades slightly when the mouse is over it */
+.footer-link:hover {
+    color: #212529; 
+    opacity: 0.6; /* Fades the text to 60% visibility */
+    text-decoration: none; /* Keeps the underline hidden */
+}

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e50d5fb23f.js" crossorigin="anonymous"></script>
+    <title>Tempus</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><strong>Tempus</strong></a>
+            <!-- Humburger Menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" href="#tempusMenu">
+                <span><i class="fa-solid fa-bars" style="color: rgb(203, 194, 212);"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="tempusMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tech carousel  -->
+    <div id="carouselPic" class="container-fluid">
+        <div class="carousel slide" data-bs-ride="carousel" id="slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/quantum.png" alt="quantum" class="w-100 ratio ratio-18*5">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/astrology.png" alt="quantum" class="w-100 ratio ratio-18*5">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/healthProb.png" alt="quantum" class="w-100 ratio ratio-18*5">
+                </div>
+            </div>
+            <a href="#slide" class="carousel-control-prev" data-bs-ride="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slide" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Recent Research -->
+    <div class="container-large mt-5 text-center">
+        <div class="mb-5">
+            <h2 class="Thin_bold display-6">Recent Research</h2>
+        </div>
+        
+        <div class="row g-5">
+            <!-- First card  -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="images/three_cards/card_firstImage_TempusAI_ML.png" class="card-img-top" alt="Mechine Learning">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold">Accelerate ML Development with TempusAI</h5>
+                        <p class="card-text">
+                            Leverage the power of TempusAI, your advanced coding agent, to build sophisticated machine learning models with 
+                            just a single prompt. Powered by the breakthrough Tempus2.5 model, you can generate complex neural networks and 
+                            entire AI systems in a fraction of the time, rapidly accelerating your development lifecycle from concept to 
+                            deployment
+                        </p>
+                        <a href="#" class="btn btn-dark mt-auto">
+                            Learn More 
+                            <span><i class="bi bi-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- First card end -->
+
+            <!-- Second Card  -->
+            <div class="col-md-4">
+                <div id="secondCard" class="card h-100">
+                    <img src="images/three_cards/card_secondImage_TempusAI_NeuralNet.png" class="card-img-top" alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold">Human-Centric Intelligence</h5>
+                        <p class="card-text">
+                            Experience the next frontier of general-purpose AI through TempusAI’s biological research division. 
+                            By mapping synthetic neural networks directly to human neuro-circuitry, TempusAI creates agents capable of 
+                            genuine sensory processing and emotional intuition. Our "Nerve-Sync" technology ensures that your AI collaborator 
+                            doesn't just calculate data—it understands the human experience.
+                        </p>
+                        <a href="#" class="btn btn-dark mt-auto">
+                            Learn More 
+                            <span><i class="bi bi-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div> 
+            </div>
+            <!-- Second card end -->
+            
+            <!-- Third Card -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="images/three_cards/card_thirdImage_TempusAI_Quantum.png" class="card-img-top" alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold">Decoding the Secrets of the Universe</h5>
+                        <p class="card-text">
+                            Unlock the deepest mysteries of the cosmos with TempusAI’s quantum computing integration. 
+                            By processing multi-dimensional data from subatomic particles to galactic clusters, 
+                            our AI helps researchers simulate complex physical phenomena and solve the most challenging equations 
+                            in quantum physics. With TempusAI, the impossible questions of the universe are finally within our reach.
+                        </p>
+                        <a href="#" class="btn btn-dark mt-auto">
+                            Learn More 
+                            <span><i class="bi bi-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>   
+            </div>  
+            <!-- Third card end -->
+        </div>
+    </div>
+    
+
+    <!-- Our Mission -->
+    <div id="mission_div" class="container text-center mt-5 border border-2 rounded p-3 bg-white">
+
+        <div >
+            <h2 class="Thin_bold display-6 mb-3">Tempus's Mission</h2>
+        </div>
+        <p>
+            To bridge the gap between biological intuition and synthetic intelligence. 
+            At Tempus, we aren't just building faster models; we are architecting a 
+            future where AI understands the nuances of human experience and the 
+            complexities of the cosmos alike.
+        </p>
+        <hr>
+        <div class="row">
+            <div class="col-md-9">
+                <p>
+                    From decoding subatomic particles to mapping the human mind, 
+                    TempusAI is a playground for the world’s most curious minds. 
+                    We provide the tools, the data, and the freedom—you provide the breakthroughs. 
+                    Step into a lab where your research changes the trajectory of the human race.
+                </p>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <a href="#" class="btn btn-lg btn-dark">
+                    Join us
+                    <span class="ms-2"><i class="fa-solid fa-briefcase" style="color: rgb(43, 185, 58);"></i></span>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Latest News -->
+    <div class="container-large mt-5 mb-5">
+        <div class="mb-3 text-center">
+            <h2>Latest News</h2>
+        </div>
+        <!-- First News  -->
+        <div class="card mb-3 w-md-50">
+            <div class="row ">
+                <div class="col-lg-4">
+                    <img src="images/three_cards/card_firstImage_TempusAI_ML.png" class="rounded-start h-100 w-100" alt="news" style="object-fit: cover;">
+                </div>
+                <div class="col-lg-8">
+                    <div class="card-body">
+                        <h5 class="card-title">TempusAI Achieves 98% Accuracy in Real-Time Quantum Simulations</h5>
+                        <p class="card-text">
+                            In a groundbreaking study released this morning, our research division confirmed that 
+                            the Tempus 2.5 model has achieved near-perfect accuracy in simulating complex quantum environments. 
+                            This milestone paves the way for commercial-grade quantum computing applications in pharmaceuticals, 
+                            climate modeling, and aerospace engineering. Chief Science Officer, Dr. Elena Voss, stated that this is 
+                            "the final barrier between theoretical quantum physics and practical, life-saving reality.                        
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">Published March 4, 2026 • 4 min read</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Second News  -->
+        <div class="card mb-3 w-md-50">
+            <div class="row ">
+                <div class="col-lg-4">
+                    <img src="images/three_cards/card_firstImage_TempusAI_ML.png" class="rounded-start h-100 w-100" alt="news" style="object-fit: cover;">
+                </div>
+                <div class="col-lg-8">
+                    <div class="card-body">
+                        <h5 class="card-title">TempusAI and Global Health Initiative Announce "Neuro-Link" Partnership</h5>
+                        <p class="card-text">
+                            TempusAI is proud to announce a multi-year partnership with the Global Health Initiative (GHI) 
+                            to integrate our Nerve-Sync technology into prosthetic development. By utilizing synthetic neural
+                            networks, the partnership aims to restore lifelike sensory feedback to thousands of patients worldwide. 
+                            This collaboration marks the first time a general-purpose AI model will be used to bridge the gap 
+                            between mechanical hardware and the human nervous system in a clinical setting.
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">Published March 4, 2026 • 4 min read</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Third News -->
+        <div class="card mb-3 w-md-50">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/three_cards/card_firstImage_TempusAI_ML.png" class="rounded-start h-100 w-100" alt="news" style="object-fit: cover;">
+                </div>
+                <div class="col-lg-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Tempus Open-Source: Releasing the "Chronos-1" Dataset to the Public</h5>
+                        <p class="card-text">
+                            In our ongoing commitment to ethical and transparent AI, TempusAI has officially released the Chronos-1 dataset—the 
+                            world’s most comprehensive collection of subatomic physical simulations. This release allows researchers 
+                            and students globally to access high-fidelity data previously locked behind enterprise-grade quantum hardware. 
+                            We believe that by democratizing access to these powerful tools, we can accelerate the pace of global scientific 
+                            discovery together.
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">Published March 4, 2026 • 4 min read</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pricing -->
+    <div class="container-large">
+        <div class="mb-3 text-center">
+            <h2>Upgrade your plan</h2>
+        </div>
+        
+        <div class="row">
+            <!-- Tempus Spark -->
+            <div class="col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-header pt-4 border-0">
+                        <h4>Tempus Spark (Go)</h4>
+                        <div class="price-container d-flex align-items-start mb-3 mt-4">
+                            <span class="currency fs-4 fw-bold me-1">$</span>                        
+                            <span class="amount display-4 fw-bold lh-1">5</span>                          
+                            <div class="details ms-2 d-flex flex-column justify-content-center">
+                                <span class="text-uppercase fw-bold small text-body-secondary" style="font-size: 0.7rem;">USD /</span>
+                                <span class="text-lowercase fw-bold small text-body-secondary" style="font-size: 0.7rem;">month</span>
+                            </div>
+                        </div>
+                        <button class="btn w-100 rounded-pill disabled btn-outline-secondary">Current Plan</button>
+                    </div>
+                    <div class="card-body border-0">
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-stars"></i>
+                            </span>
+                            Explore topics in depth
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-chat"></i>
+                            </span>
+                            Chat longer and upload more content
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-images"></i>
+                            </span>
+                            Make more images for your projects
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-brain"></i>
+                            </span>
+                            Get more memory for smarter replies
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-binoculars"></i>
+                            </span>
+                            Get help with planning and tasks
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-grid"></i>
+                            </span>
+                            Explore projects, tasks, and custom GPTs
+                        </p>
+                    </div>
+                    <div class="card-footer border-0 bg-white" style="font-family: sans-serif;">
+                        <small class="muted">This plan may include ads.
+                            <a href="#">Learn more</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <!-- Tempus Flow  -->
+            <div class="col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-header pt-4 border-0">
+                        <h4 class="text-center">Tempus Flow (Pro)</h4>
+                        <div class="price-container d-flex align-items-start mb-3 mt-4">
+                            <span class="currency fs-4 fw-bold me-1">$</span>                          
+                            <span class="amount display-4 fw-bold lh-1">20</span>                        
+                            <div class="details ms-2 d-flex flex-column justify-content-center">
+                                <span class="text-uppercase fw-bold small text-body-secondary" style="font-size: 0.7rem;">USD /</span>
+                                <span class="text-lowercase fw-bold small text-body-secondary" style="font-size: 0.7rem;">month</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-dark w-100 rounded-pill">Upgrade to Pro</a>
+                    </div>
+                    <div class="card-body border-0">
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-stars"></i>
+                            </span>
+                            Solve complex problems
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-chat"></i>
+                            </span>
+                            Have long chats over multiple sessions
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-images"></i>
+                            </span>
+                            Create more images, faster
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-brain"></i>
+                            </span>
+                            Remember goals and past conversations
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-binoculars"></i>
+                            </span>
+                            Plan travel and tasks with agent mode
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-grid"></i>
+                            </span>
+                            Organize projects and customize GPTs
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-video"></i>
+                            </span>
+                            Produce and share videos on Sora
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-code"></i>
+                            </span>
+                            Write code and build apps with Codex
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tempus Zenith -->
+            <div class="col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-header pt-4 border-0">
+                        <h4 class="text-center">Tempus Zenith (Elite)</h4>
+                        <div class="price-container d-flex align-items-start mb-3 mt-4">
+                            <span class="currency fs-4 fw-bold me-1">$</span>
+                            <span class="amount display-4 fw-bold lh-1">150</span>
+                            <div class="details ms-2 d-flex flex-column justify-content-center">
+                                <span class="text-uppercase fw-bold small text-body-secondary" style="font-size: 0.7rem;">USD /</span>
+                                <span class="text-lowercase fw-bold small text-body-secondary" style="font-size: 0.7rem;">month</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-dark w-100 rounded-pill">Upgrade to Elite</a>
+                    </div>
+                    <div class="card-body border-0">
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-stars"></i>
+                            </span>
+                            Master advanced tasks and topics
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-chat"></i>
+                            </span>
+                            Tackle big projects with unlimited GPT-5.2
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-images"></i>
+                            </span>
+                            Create high-quality images at any scale
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-brain"></i>
+                            </span>
+                            Keep full context with maximum memory
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-binoculars"></i>
+                            </span>
+                            Run research and plan tasks with agents
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="bi bi-grid"></i>
+                            </span>
+                            Scale your projects and automate workflows
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-video"></i>
+                            </span>
+                            Expand your limits with Sora video creation
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-code"></i>
+                            </span>
+                            Deploy code faster with Codex
+                        </p>
+                        <p>
+                            <span class="me-2">
+                                <i class="fa-solid fa-flask"></i>
+                            </span>
+                            Get early access to experimental features
+                        </p>
+                    </div>
+                    <div class="card-footer border-0" style="font-family: sans-serif;">
+                        <small>
+                                Unlimited subject to abuse guardrails. <a href="#">Learn more</a>
+                                <p style="font-family: sans-serif;"><a href="#">I need help with a billig issue</a></p>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Get Involved Section -->
+    <div class="Get_Involved container-large mt-5">
+        <div class="Get_Invlolved_Header text-center">
+            <h2>Join the Architect of the Future</h2>
+            <p class="fst-italic fs-6">
+                Explore how you can contribute to the intersection of human intuition and synthetic intelligence.
+            </p>
+        </div>
+
+
+        <div class="Get_Involved_Body">
+            <div class="row">
+                <!-- Card One -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                    <div class="card h-100">
+                        <div class="card-header text-center border-0">
+                            <h5 class="fw-bold">Open-Source</h5>
+                            <span class="fs-2"><i class="bi bi-braces"></i></span>
+                        </div>
+                        <div class="card-body text-center d-flex flex-column">
+                            <p>
+                                Access our latest model weights and documentation. 
+                                Help us refine the neural pathways of the Tempus 2.5 engine.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark mt-auto">Access Repo <i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Two -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                    <div class="card h-100">
+                        <div class="card-header text-center border-0">
+                            <h5 class="fw-bold">Research Lab</h5>
+                            <span class="fs-2"><i class="fa-solid fa-microscope"></i></span>
+                        </div>
+                        <div class="card-body text-center d-flex flex-column">
+                            <p>
+                                Apply for computational grants to use our quantum-simulation 
+                                hardware for your scientific breakthroughs.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark mt-auto">Apply for grant <i class="bi bi-arrow-up-right"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Three -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                    <div class="card h-100">
+                        <div class="card-header text-center border-0">
+                            <h5 class="fw-bold">Partnerships</h5>
+                            <span class="fs-2"><i class="fa-regular fa-handshake"></i></span>
+
+                        </div>
+                        <div class="card-body text-center d-flex flex-column">
+                            <p>
+                                Integrate Tempus intelligence into your enterprise. 
+                                From healthcare to aerospace, let's build together.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark mt-auto">Partner With Us <i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Four -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                    <div class="card h-100">
+                        <div class="card-header text-center border-0">
+                            <h5 class="fw-bold">Join the Team</h5>
+                            <span class="fs-2"><i class="fa-solid fa-briefcase"></i></span>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <p>
+                                We are looking for the world’s most curious minds. 
+                                Step into a lab where your work changes the human race.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark mt-auto">View Openings <i class="bi bi-arrow-up-right"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Last Bottom Footer -->
+    <div class="Last-botton-footer container-fluid bg-secondary mt-3">
+        <div class="container-large">
+            <div class="card bg-transparent border-0">
+                <div class="card-body border-0 p-0">
+                    <div class="row g-0">
+                        <!-- Tempus  -->
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <div class="card-header border-0 text-white">
+                                    <h3>Tempus</h3>
+                                </div>
+                                <div class="card-body text-white">
+                                    <p>
+                                        Use your core mission statement here to leave a final impression. 
+                                        Example: <i>"Bridging biological intuition and synthetic intelligence to architect the future."</i> 
+                                    </p>
+                                    <div class="d-flex gap-3">
+                                        <div class="fs-3"><a href="#" class="footer-link"><i class="bi bi-facebook"></i></a></div>
+                                        <div class="fs-3"><a href="#" class="footer-link"><i class="bi bi-twitter-x"></i></a></div>
+                                        <div class="fs-3"><a href="#" class="footer-link"><i class="bi bi-youtube"></i></a></div>
+                                        <div class="fs-3"><a href="#" class="footer-link"><i class="bi bi-linkedin"></i></a></div>
+                                        <div class="fs-3"><a href="#" class="footer-link"><i class="bi bi-github"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <!-- Quick Links -->
+                            <div class="card border-0 bg-transparent">
+                                <div class="card-header border-0 text-white">
+                                    <h2>Company</h2>
+                                </div>
+                                <div class="card-body d-flex flex-column gap-2">
+                                    <div><a href="#" class="footer-link">About us</a></div>
+                                    <div><a href="#" class="footer-link">Careers</a></div>
+                                    <div><a href="#" class="footer-link">News & Press</a></div>
+                                    <div><a href="#" class="footer-link">Safety & Ethics</a></div>
+                                    <div><a href="#" class="footer-link">Contact us</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ecosystems / Products -->
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <div class="card-header border-0 text-white">
+                                    <h2>Tempus</h2>
+                                </div>
+                                <div class="card-body d-flex flex-column gap-2">
+                                    <div><a href="#" class="footer-link">Tempus 2.5 Engine</a></div>
+                                    <div><a href="#" class="footer-link">Open-Source Models</a></div>
+                                    <div><a href="#" class="footer-link">API Documentation</a></div>
+                                    <div><a href="#" class="footer-link">Quantum Simulation Grants</a></div>
+                                    <div><a href="#" class="footer-link">Enterprice partnerships</a></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Connect/ Contact -->
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="card border-0 bg-transparent">
+                                <div class="card-header border-0 text-white">
+                                    <h2>Connect</h2>
+                                </div>
+                                <div class="card-body d-flex flex-column gap-2">
+                                    <div><a href="#" class="footer-link"><i class="bi bi-geo-alt-fill"></i> Tempus Labs, Silicon Valley, CA</a></div>
+                                    <div><a href="#" class="footer-link"><i class="bi bi-envelope-fill"></i> hello@tempus.ai</a></div>
+                                    <div><a href="#" class="footer-link"><i class="bi bi-headset"></i> Techanical Support</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-center">
+                                <small class="text-white">&copy; 2026 TempusAI, All rights reserved. |
+                                    <a href="#" class="footer-link">Privacy Policy</a> |
+                                    <a href="#" class="footer-link">Terms of Use</a>
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</body>
+</html>
